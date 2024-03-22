@@ -1,16 +1,15 @@
 import { Route, Switch } from 'react-router-dom';
 import styles from './style.module.css'
 import Home from '../home';
-import Chat from '../chat';
-import TestApi from '../test-api';
+import Resources from '../resources';
 
 const Main = () => {
     return(
         <div className={styles.container}>
             <Switch>
                 <Route exact path='/' component={Home}/>
-                <Route exact path='/chat' component={Chat}/>
-                <Route exact path='/test' component={TestApi}/>
+                <Route exact path='/resources' component={Resources}/>
+                {/* <Route exact path='/test' component={TestApi}/> */}
             </Switch>
         </div>
     )
