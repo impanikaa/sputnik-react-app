@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sputnik-react-app/static/css/main.7d344d65.css",
+    "main.js": "/sputnik-react-app/static/js/main.be278339.js",
+    "static/js/787.ec704a7a.chunk.js": "/sputnik-react-app/static/js/787.ec704a7a.chunk.js",
+    "index.html": "/sputnik-react-app/index.html",
+    "main.7d344d65.css.map": "/sputnik-react-app/static/css/main.7d344d65.css.map",
+    "main.be278339.js.map": "/sputnik-react-app/static/js/main.be278339.js.map",
+    "787.ec704a7a.chunk.js.map": "/sputnik-react-app/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d344d65.css",
+    "static/js/main.be278339.js"
+  ]
+}
