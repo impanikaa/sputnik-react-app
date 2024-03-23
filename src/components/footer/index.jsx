@@ -1,25 +1,16 @@
-import { useLocalStorage } from '../../hook/useLocalstorage';
-import Exit from './exit';
 import styles from './style.module.css';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
-  const [, setUser] = useLocalStorage('USER');
-  
-  const handleLogout = () => {
-    setUser('');
-    window.location.reload();
-  };
-
   return (
     <div className={styles.container}>
       <nav className={styles.navbar}>
-        <Link to='/' className={styles.links}>Главная страница</Link>
-        <Link to='/chat' className={styles.links}>Чат</Link>
-        <Link to='/test' className={styles.links}>Данные</Link>
-        <Link to='/' className={styles.links} onClick={handleLogout}>
-          <Exit></Exit>
-        </Link>
+        <Link to='/' className={styles.links}>Главная</Link>
+        <Link to='/fipi' className={styles.links}>ФИПИ</Link>
+        <Link to='/exam' className={styles.links}>Об экзамене</Link>
+        <Link to='/practice' className={styles.links}>Задание №17</Link>
+        <Link to='/resorces' className={styles.links}>Ресурсы</Link>
+        <Link to='/about' className={styles.links}>О сайте</Link>
       </nav>
     </div>
   );
