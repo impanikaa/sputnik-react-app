@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sputnik-react-app/static/css/main.319fab29.css",
-    "main.js": "/sputnik-react-app/static/js/main.be278339.js",
-    "static/js/787.ec704a7a.chunk.js": "/sputnik-react-app/static/js/787.ec704a7a.chunk.js",
-    "index.html": "/sputnik-react-app/index.html",
-    "main.319fab29.css.map": "/sputnik-react-app/static/css/main.319fab29.css.map",
-    "main.be278339.js.map": "/sputnik-react-app/static/js/main.be278339.js.map",
-    "787.ec704a7a.chunk.js.map": "/sputnik-react-app/static/js/787.ec704a7a.chunk.js.map"
+    "main.css": "/static/css/main.319fab29.css",
+    "main.js": "/static/js/main.bafeaff8.js",
+    "static/js/787.ec704a7a.chunk.js": "/static/js/787.ec704a7a.chunk.js",
+    "index.html": "/index.html",
+    "main.319fab29.css.map": "/static/css/main.319fab29.css.map",
+    "main.bafeaff8.js.map": "/static/js/main.bafeaff8.js.map",
+    "787.ec704a7a.chunk.js.map": "/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.319fab29.css",
-    "static/js/main.be278339.js"
+    "static/js/main.bafeaff8.js"
   ]
 }
