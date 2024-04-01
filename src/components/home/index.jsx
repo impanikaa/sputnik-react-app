@@ -1,11 +1,12 @@
-import { useState } from 'react';
 import styles from './style.module.css'
-import { useLocalStorage } from '../../hook/useLocalstorage';
+import Picture_1 from '../../data/home/Picture_1.png'
 
 const Home = () => {
-    <div>
-        <h1>Home</h1>
+    return (
+    <div className={styles.container}>
+        <img src={Picture_1}></img>
     </div>
+    );
 }
 
 
