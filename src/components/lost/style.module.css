@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+h1 {
+color: gray;
+font-size: 15pt;
+font-weight: 300;
+font-family: 'Roboto';
+}

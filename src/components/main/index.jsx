@@ -6,6 +6,7 @@ import Info from '../oge_info';
 import Experimental from '../experimental';
 import Resources from '../resources';
 import About from '../about';
+import Lost from '../lost'
 
 const Main = () => {
     return(
@@ -17,6 +18,7 @@ const Main = () => {
                 <Route exact path='/experimental-task' component={Experimental}/>
                 <Route exact path='/resources' component={Resources}/>
                 <Route exact path='/about' component={About}/>
+                <Route exact path='/lost' component={Lost}/>
             </Switch>
         </div>
     )
