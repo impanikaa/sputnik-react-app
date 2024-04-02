@@ -5,6 +5,7 @@
   /* justify-content: center; */
   align-items: center; /* Центрирование содержимого по вертикали */
   padding-left: 145px;
+  padding-right: 145px;
 }
 
 .navbar {
@@ -34,13 +35,37 @@
   color: #4A3311;
 }
 
-.logo {
-  width: 55px;
-  height: 55px;
-  margin-left: -193px;
+.line {
+  width: 1px;
+  height: 115px; /* Высота контейнера */
+  background-color: #4A3311;
+  position: relative; /* Относительное позиционирование */
 }
 
-.logo-container {
+
+.picture {
+  left: 160px;
+  position: relative;
+}
+
+.text {
   display: flex;
-  align-items: center; /* Выравнивание по вертикали */
+  color: #0D0D0D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0;
+}
+
+.text_logo {
+  position: relative;
+  left: 342px;
+  right: 0px;
+  height: 140px;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.logo {
+  margin-top: 80px;
 }
