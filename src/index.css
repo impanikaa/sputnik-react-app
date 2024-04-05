@@ -37,11 +37,10 @@
 
 body {
   font-family: 'Roboto Regular', sans-serif;
-  font-weight: 400; /* Regular */
-  font-size: 16;
+  font-size: 14pt;
   line-height: 140%;
-  margin: 0; /* Удалить отступы */
-  padding: 0; /* Удалить отступы */
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -50,7 +49,28 @@ p {
 
 .navlinks {
   font-family: 'Roboto Condensed Medium', sans-serif;
-  font-weight: 500; /* Medium */
-  font-size: 100px;
-  line-height: normal; /* Auto */
+  font-size: 16pt;
+  line-height: normal;
+}
+
+h1 {
+  font-family: 'Roboto Slab Regular', sans-serif;
+  font-size: 36pt;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Roboto Medium', sans-serif;
+  font-size: 20pt;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Roboto Slab Regular', sans-serif;
+  font-size: 16pt;
+  margin: 0;
+  padding: 0;
 }

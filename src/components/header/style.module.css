@@ -3,7 +3,6 @@
   width: 100%;
   height: 15vh;
   display: flex;
-  /*  */
   align-items: center; /* Центрирование содержимого по вертикали */
   position: fixed;
   z-index: 1000;
