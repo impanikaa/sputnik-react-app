@@ -10,8 +10,8 @@
 }
 
 .navbar {
-  width: 60vw;
-  margin-left: 10vw;
+  width: 65vw;
+  margin-left: 8vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,9 +20,8 @@
 .links {
   display: flex;
   color: #0D0D0D;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18;
+  font-family: 'Roboto Condensed Regular', sans-serif;
+  font-size: 16pt;
   line-height: normal;
   text-decoration: none;
 }

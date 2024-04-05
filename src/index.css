@@ -1,7 +1,44 @@
+@font-face {
+  font-family: "Roboto Medium";
+  src: local("Roboto Medium"),
+    url("./data/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: local("Roboto Light"),
+    url("./data/fonts/Roboto-Light.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: local("Roboto Regular"),
+    url("./data/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Condensed Regular";
+  src: local("Roboto Condensed Regular"),
+    url("./data/fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab Medium";
+  src: local("Roboto Slab Medium"),
+    url("./data/fonts/RobotoSlab-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab Regular";
+  src: local("Roboto Slab Regular"),
+    url("./data/fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-weight: 400; /* Regular */
-  font-size: 16px;
+  font-size: 16;
   line-height: 140%;
   margin: 0; /* Удалить отступы */
   padding: 0; /* Удалить отступы */
@@ -12,7 +49,7 @@ p {
 }
 
 .navlinks {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed Medium', sans-serif;
   font-weight: 500; /* Medium */
   font-size: 100px;
   line-height: normal; /* Auto */
