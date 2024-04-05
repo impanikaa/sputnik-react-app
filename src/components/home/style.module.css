@@ -1,6 +1,16 @@
 .container {
+    width: 100%;
+    /* display:block; */
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+
+.container_main {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3000px;
+    height: 85vh;
+    /* border: 1px solid red; */
 }
