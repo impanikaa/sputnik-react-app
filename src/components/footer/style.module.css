@@ -20,7 +20,7 @@
   display: flex;
   color: #0D0D0D;
   font-family: 'Roboto Condensed Regular', sans-serif;
-  font-size: 16pt;
+  font-size: 3vh;
   line-height: 140%;
   text-decoration: none;
 }
@@ -46,7 +46,7 @@
   display: flex;
   color: #0D0D0D;
   font-family: 'Roboto Light', sans-serif;
-  font-size: 12pt;
+  font-size: 2vh;
   margin: 0;
 }
 
