@@ -1,5 +1,6 @@
 import styles from './style.module.css'
 import Picture_1 from '../../data/home/Picture_1.png'
+import Book from '../../data/home/book.png'
 
 const Home = () => {
     return (
@@ -15,7 +16,24 @@ const Home = () => {
                     сложных предметов</p>
                 <button classname={styles.button}>Подробнее</button>
             </div>
-            <img src={Picture_1} className={styles.picture_1_main}></img>
+            <img src={Picture_1}></img>
+        </div>
+        <div className={styles.container_oge}>
+            <img src={Book}></img>
+            <div className={styles.oge_text}>
+                <h2>Что из себя представляет ОГЭ?</h2>
+                <div>
+                    <p> <b>Основной государственный экзамен (ОГЭ)</b> - форма государственной итоговой аттестации (ГИА),
+                        проводимой для 9 классов с целью выявления знаний по предмету за курс основной школы. 
+                        Ученик в обязательном порядке сдает русский язык и математику, а остальные 2 предмета выбирает 
+                        на свое усмотрение. Одним из возможных предметов является физика. </p>
+                    <p>На выполнение экзаменационной работы по физике отводится 3 часа (180 минут). 
+                        Экзаменационная работа включает в себя 25 заданий.</p>
+                </div>
+            </div>
+        </div>
+        <div className={styles.break}>
+            <br></br>
         </div>
     </div>
     );
