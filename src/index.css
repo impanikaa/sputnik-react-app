@@ -74,3 +74,28 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
+button {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 2vh 2vh;
+  background: #FFAA24;
+  transition: 0.15s;
+  border: 1px solid #FFAA24;
+  height: 8vh;
+  width: 10vw;
+}
+
+button:hover {
+  color: #000000;
+  transform: translate(-0.25rem, -0.25rem);
+  background: #fff;
+  box-shadow: 0.25rem 0.25rem #000;
+  border: 1px solid #000;
+}
+
+button:active {
+  transform: translate(0);
+  box-shadow: none;
+}

@@ -13,6 +13,7 @@ const Home = () => {
                     материалы для подготовки, которые помогут успешно и
                     без лишнего стресса сдать экзамен по одному из самых
                     сложных предметов</p>
+                <button classname={styles.button}>Подробнее</button>
             </div>
             <img src={Picture_1} className={styles.picture_1_main}></img>
         </div>
