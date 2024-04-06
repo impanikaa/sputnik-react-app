@@ -37,7 +37,7 @@
 
 
 .picture {
-  left: 8vw;
+  left: 10vw;
   position: relative;
   width: 15vw;
 }
@@ -52,13 +52,17 @@
 
 .text_logo {
   position: relative;
-  left: 15vw;
+  left: 20vw;
   height: 45vh;
   text-align: right;
-  width: 20vw;
+  width: 15vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.text_logo p {
+  text-align: right;
 }
 
 .logo {

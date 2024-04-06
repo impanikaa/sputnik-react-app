@@ -1,4 +1,5 @@
 import styles from './style.module.css'
+import { Link } from 'react-router-dom';
 import Picture_1 from '../../data/home/Picture_1.png'
 import Picture_2 from '../../data/home/Picture_2.png'
 import Book from '../../data/home/book.png'
@@ -6,6 +7,11 @@ import Fipi from '../../data/home/fipi.png'
 import Resources from '../../data/home/resources.png'
 import Solves from '../../data/home/solves.png'
 import Organisation from '../../data/home/organisation.png'
+
+function scrollToElement() {
+    const element = document.getElementById('target-element');
+    element.scrollIntoView({ behavior: 'smooth' }); // Для плавной прокрутки добавьте параметр behavior: 'smooth'
+  }
 
 const Home = () => {
     return (
@@ -20,7 +26,7 @@ const Home = () => {
                     материалы для подготовки, которые помогут успешно и
                     без лишнего стресса сдать экзамен по одному из самых
                     сложных предметов</p>
-                <button classname={styles.button}>Подробнее</button>
+                <button classname={styles.button} onClick={scrollToElement}>Подробнее</button>
             </div>
             <img src={Picture_1}></img>
         </div>
@@ -40,7 +46,7 @@ const Home = () => {
             </div>
         </div>
         
-        <div className={styles.break}></div>
+        <div className={styles.break} id='target-element'></div>
         
         <div className={styles.container_about}>
             <h2>Здесь вы найдете информацию о...</h2>
@@ -73,6 +79,7 @@ const Home = () => {
                 <h3>Экспериментальное задание №17</h3>
                 <p>Помимо теории, экзамен по физике проверяет и <b>практические</b> навыки учащегося в задании №17. 
                     Для успешного выполнения лабораторной работы мы предлагаем следующие материалы:</p>
+                    <Link to='/experimental-task'><button classname={styles.button}>Подробнее</button></Link>
             </div>
             <img src={Picture_2}></img>
             <ul>
@@ -91,7 +98,7 @@ const Home = () => {
                 педагогических измерений»</b> занимается исследованиями в области оценки качества образования. 
                 Учредителем института является Федеральная служба по надзору в сфере образования и науки 
                 Российской Федерации (Рособрнадзор)”</i></p>
-                <p><a href='https://fipi.ru/'>ФИПИ</a> - ваш главный помощник при подготовке к экзаменам. 
+                <p><a href='https://fipi.ru/'><u>ФИПИ</u></a> - ваш главный помощник при подготовке к экзаменам. 
                 На нем размещена вся официальная информация и документы, а также есть 
                 открытый банк заданий - незаменимый источник для сдающих ОГЭ и ЕГЭ.</p>
             </div>
