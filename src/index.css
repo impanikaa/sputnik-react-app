@@ -37,7 +37,7 @@
 
 body {
   font-family: 'Roboto Regular', sans-serif;
-  font-size: 2.5vh;
+  font-size: 1.2vw;
   line-height: 140%;
   margin: 0;
   padding: 0;
@@ -49,28 +49,28 @@ p {
 
 .navlinks {
   font-family: 'Roboto Condensed Medium', sans-serif;
-  font-size: 3vh;
+  font-size: 2vw;
   line-height: normal;
 }
 
 h1 {
   font-family: 'Roboto Slab Regular', sans-serif;
-  font-size: 7.5vh;
+  font-size: 3.5vw;
   line-height: 120%;
   margin: 0;
   padding: 0;
 }
 
 h2 {
-  font-family: 'Roboto Medium', sans-serif;
-  font-size: 4vh;
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 2vw;
   margin: 0;
   padding: 0;
 }
 
 h3 {
   font-family: 'Roboto Slab Regular', sans-serif;
-  font-size: 3vh;
+  font-size: 1.4vw;
   margin: 0;
   padding: 0;
 }
@@ -85,7 +85,7 @@ button {
   border: 1px solid #FFAA24;
   height: 7vh;
   width: 10vw;
-  font-size: 2vh;
+  font-size: 1vw;
 }
 
 button:hover {

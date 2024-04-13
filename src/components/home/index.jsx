@@ -10,7 +10,7 @@ import Organisation from '../../data/home/organisation.png'
 
 function scrollToElement() {
     const element = document.getElementById('target-element');
-    element.scrollIntoView({ behavior: 'smooth' }); // Для плавной прокрутки добавьте параметр behavior: 'smooth'
+    element.scrollIntoView({ behavior: 'smooth' });
   }
 
 const Home = () => {

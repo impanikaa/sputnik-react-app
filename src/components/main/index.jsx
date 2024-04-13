@@ -18,6 +18,9 @@ const Main = () => {
                 <Route exact path='/experimental-task' component={Experimental}/>
                 <Route exact path='/resources' component={Resources}/>
                 <Route exact path='/about' component={About}/>
+                <Route exact path='/experimental-task/topics' component={Lost}/>
+                <Route exact path='/experimental-task/equipment' component={Lost}/>
+                <Route exact path='/experimental-task/solves' component={Lost}/>
                 <Route exact path='/lost' component={Lost}/>
             </Switch>
         </div>
