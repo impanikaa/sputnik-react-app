@@ -141,7 +141,7 @@ const Experimental = () => {
                 </div>
                 </div>
             </div>
-            <Link to='/experimental-task/equipment'><button classname={styles.button}>Подробнее</button></Link>
+            <Link to='/experimental-task/solves'><button classname={styles.button}>Подробнее</button></Link>
         </div>
 
     </div>
