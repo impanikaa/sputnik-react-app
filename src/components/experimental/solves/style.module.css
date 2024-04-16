@@ -161,3 +161,21 @@
   justify-content: center;
   margin-left: 2vw;
 }
+
+.documents {
+  width: 100%;
+  height: 580vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+iframe {
+  width: 70vw;
+  height: 39.375vw;
+}
+
+.documents img {
+  width: 65vw;
+}

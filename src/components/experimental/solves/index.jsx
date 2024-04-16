@@ -1,9 +1,45 @@
 import React, { useState } from 'react';
+import YouTube from 'react-youtube';
 import styles from './style.module.css';
 import documentsData from './documents.json';
 import Picture_1 from '../../../data/experimental/solves/picture_1.png';
 import Picture_2 from '../../../data/experimental/solves/picture_2.png';
 import Key from '../../../data/experimental/solves/key.png';
+
+import table_1 from "../../../data/experimental/solves/tables/1.png";
+import instruction_1 from "../../../data/experimental/solves/instructions/1.png";
+import blank_1 from "../../../data/experimental/solves/blanks/1.jpg";
+import scheme_1 from "../../../data/experimental/solves/schemes/1.jpg";
+
+import table_2 from "../../../data/experimental/solves/tables/2.png";
+import instruction_2 from "../../../data/experimental/solves/instructions/2.png";
+import blank_2 from "../../../data/experimental/solves/blanks/2.jpg";
+import scheme_2 from "../../../data/experimental/solves/schemes/2.jpg";
+
+import table_3 from "../../../data/experimental/solves/tables/3.png";
+import instruction_3 from "../../../data/experimental/solves/instructions/3.png";
+import blank_3 from "../../../data/experimental/solves/blanks/3.jpg";
+import scheme_3 from "../../../data/experimental/solves/schemes/3.jpg";
+
+import table_4 from "../../../data/experimental/solves/tables/4.png";
+import instruction_4 from "../../../data/experimental/solves/instructions/4.png";
+import blank_4 from "../../../data/experimental/solves/blanks/4.jpg";
+import scheme_4 from "../../../data/experimental/solves/schemes/4.jpg";
+
+import table_5 from "../../../data/experimental/solves/tables/5.png";
+import instruction_5 from "../../../data/experimental/solves/instructions/5.png";
+import blank_5 from "../../../data/experimental/solves/blanks/5.jpg";
+import scheme_5 from "../../../data/experimental/solves/schemes/5.jpg";
+
+import table_6 from "../../../data/experimental/solves/tables/6.png";
+import instruction_6 from "../../../data/experimental/solves/instructions/6.png";
+import blank_6 from "../../../data/experimental/solves/blanks/6.jpg";
+import scheme_6 from "../../../data/experimental/solves/schemes/6.jpg";
+
+import table_7 from "../../../data/experimental/solves/tables/7.png";
+import instruction_7 from "../../../data/experimental/solves/instructions/7.png";
+import blank_7 from "../../../data/experimental/solves/blanks/7.jpg";
+import scheme_7 from "../../../data/experimental/solves/schemes/7.jpg";
 
 const Solves = () => {
   const [selectedSet, setSelectedSet] = useState("set1");
@@ -35,15 +71,61 @@ const Solves = () => {
   let content;
   if (showContent) { // Показ контента только если кнопка была нажата
     if (selectedTask === "1") {
-      content = <div>
-        <img></img>
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_1}/>
+        <img src={instruction_1}/>
+        <img src={blank_1}/>
+        <img src={scheme_1}/>
       </div>;
     } else if (selectedTask === "2") {
-      content = <div>Содержимое для Комплекта №1, Задания №2</div>;
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_2}/>
+        <img src={instruction_2}/>
+        <img src={blank_2}/>
+        <img src={scheme_2}/>
+      </div>;
     } else if (selectedTask === "3") {
-      content = <div>Содержимое для Комплекта №2, Задания №3</div>;
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_3}/>
+        <img src={instruction_3}/>
+        <img src={blank_3}/>
+        <img src={scheme_3}/>
+      </div>;
     } else if (selectedTask === "4") {
-      content = <div>Содержимое для Комплекта №2, Задания №4</div>;
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_4}/>
+        <img src={instruction_4}/>
+        <img src={blank_4}/>
+        <img src={scheme_4}/>
+      </div>;
+    } else if (selectedTask === "5") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_5}/>
+        <img src={instruction_5}/>
+        <img src={blank_5}/>
+        <img src={scheme_5}/>
+      </div>;
+    } else if (selectedTask === "6") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_6}/>
+        <img src={instruction_6}/>
+        <img src={blank_6}/>
+        <img src={scheme_6}/>
+      </div>;
+    } else if (selectedTask === "7") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_7}/>
+        <img src={instruction_7}/>
+        <img src={blank_7}/>
+        <img src={scheme_7}/>
+      </div>;
     }
   }
 
