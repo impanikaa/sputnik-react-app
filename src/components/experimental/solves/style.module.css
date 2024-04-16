@@ -72,7 +72,7 @@
 }
 
 .download {
-  height: 50vh;
+  height: 65vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -84,25 +84,20 @@
 }
 
 .download img {
-  height: 45vh;
+  height: 70%;
 }
 
 .download_text {
   width: 60%;
   margin-left: 5vw;
-  height: 45vh;
+  height: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 15vh;
+  justify-content: space-between;
 }
 
-.download_text h2 {
-  margin-bottom: 3vh;
-}
-
-.download_text p {
+.par {
   display: flex;
   color: #0D0D0D;
   font-family: 'Roboto Light', sans-serif;
@@ -112,81 +107,57 @@
 
 .links_block {
   width: 100%;
-  height: 20vh;
+  height: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .link {
-  height: 5vh;
+  height: 8vh;
   width: 100%;
   background-color: #FFEEB1;
   border-radius: 1vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  text-align: left;
 }
 
-.Btn {
-  width: 50px;
-  height: 50px;
-  border: none;
-  border-radius: 50%;
-  background-color: rgb(27, 27, 27);
+.link p {
+  text-align: left;
+  width: 70%;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.link button {
+  background-color: #FFFFFF;
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 3vw;
+  border: 1px solid #4A3311;
+  display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  position: relative;
-  transition-duration: .3s;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.11);
+  margin-right: 2vw;
 }
 
-.svgIcon {
-  fill: rgb(214, 178, 255);
+.links_block img {
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
-.icon2 {
-  width: 18px;
-  height: 5px;
-  border-bottom: 2px solid rgb(182, 143, 255);
-  border-left: 2px solid rgb(182, 143, 255);
-  border-right: 2px solid rgb(182, 143, 255);
-}
-
-.Btn:hover {
-  background-color: rgb(150, 94, 255);
-  transition-duration: .3s;
-}
-
-.Btn:hover .icon2 {
-  border-bottom: 2px solid rgb(235, 235, 235);
-  border-left: 2px solid rgb(235, 235, 235);
-  border-right: 2px solid rgb(235, 235, 235);
-}
-
-.Btn:hover .svgIcon {
-  fill: rgb(255, 255, 255);
-  animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@keyframes slide-in-top {
-  0% {
-    transform: translateY(-10px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
-button {
-  width: fit-content;
-  height: fit-content;
+.number {
+  border: 1px solid #4A3311;
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2vw;
 }

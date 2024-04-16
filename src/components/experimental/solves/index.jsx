@@ -3,6 +3,7 @@ import styles from './style.module.css';
 import documentsData from './documents.json';
 import Picture_1 from '../../../data/experimental/solves/picture_1.png';
 import Picture_2 from '../../../data/experimental/solves/picture_2.png';
+import Key from '../../../data/experimental/solves/key.png';
 
 const Solves = () => {
   const [selectedSet, setSelectedSet] = useState("set1");
@@ -76,31 +77,61 @@ const Solves = () => {
           <button className={styles.button} onClick={handleClick}> Найти </button>
         </div>
       </div>
+      
       {showContent && (
         <div className={styles.solves}>
           <div className={styles.download}>
             <img src={Picture_2}/>
             <div className={styles.download_text}>
+              
               <h2>Файлы для печати</h2>
+              
               <div className={styles.links_block}>
+                
                 <div className={styles.link}>
                   <div className={styles.number}>1</div>
-                  Таблица с анализом условия задачи
+                  <p>Таблица с анализом условия задачи</p>
                   <button classname={styles.Btn}>
-                    {/* <a href={documentsData[selectedTask].link_table} target="_blank" rel="noreferrer"> */}
-                    <svg classname={styles.svgIcon} viewBox="0 0 384 512" height="1em" 
-                    xmlns="http://www.w3.org/2000/svg">
-                      <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 
-                      0-45.3s-32.8-12.5-45.3 
-                      0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 
-                      265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
-                    <span classname={styles.icon2}></span>
-                    {/* </a> */}
+                    <a href={documentsData[selectedTask].link_table} target="_blank" rel="noreferrer">
+                    <img src={Key}></img>
+                    </a>
+                  </button>
+                </div>
+              
+                <div className={styles.link}>
+                  <div className={styles.number}>2</div>
+                  <p>Текстовая инструкция</p>
+                  <button classname={styles.Btn}>
+                    <a href={documentsData[selectedTask].link_instruction} target="_blank" rel="noreferrer">
+                    <img src={Key}></img>
+                    </a>
+                  </button>
+                </div>
+              
+                <div className={styles.link}>
+                  <div className={styles.number}>3</div>
+                  <p>Пример оформления на бланке</p>
+                  <button classname={styles.Btn}>
+                    <a href={documentsData[selectedTask].link_blank} target="_blank" rel="noreferrer">
+                    <img src={Key}></img>
+                    </a>
+                  </button>
+                </div>
+              
+                <div className={styles.link}>
+                  <div className={styles.number}>4</div>
+                  <p>Рисунок</p>
+                  <button classname={styles.Btn}>
+                    <a href={documentsData[selectedTask].link_scheme} target="_blank" rel="noreferrer">
+                    <img src={Key}></img>
+                    </a>
                   </button>
                 </div>
               </div>
-              <p>При нажатии на кнопку скачивания вы перейдете в Яндекс Диск, 
-                где можете выбрать, открыть и скачать удобный для вас тип файла (PNG, JPG, PDF)</p>
+              
+              <div className={styles.par}>При нажатии на кнопку скачивания вы перейдете в Яндекс Диск, 
+                где можете выбрать, открыть и скачать удобный для вас тип файла (PNG, JPG, PDF)</div>
+            
             </div>
           </div>
           {content}

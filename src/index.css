@@ -83,9 +83,11 @@ button {
   background: #FFAA24;
   transition: 0.15s;
   border: 1px solid #FFAA24;
-  height: 7vh;
-  width: 10vw;
   font-size: 1vw;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 
 button:hover {
