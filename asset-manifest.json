@@ -1,8 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f8f4616.css",
-    "main.js": "/static/js/main.b8197008.js",
+    "main.css": "/static/css/main.b2b52416.css",
+    "main.js": "/static/js/main.00c1242f.js",
     "static/js/787.ec704a7a.chunk.js": "/static/js/787.ec704a7a.chunk.js",
+    "static/media/5.jpg": "/static/media/5.bd547f1f40080dbdd606.jpg",
+    "static/media/2.jpg": "/static/media/2.6c2f835605289b30bf69.jpg",
+    "static/media/3.jpg": "/static/media/3.11880eadfcedc87030ad.jpg",
+    "static/media/4.jpg": "/static/media/4.b6274488c2b72bb5bbe6.jpg",
+    "static/media/1.jpg": "/static/media/1.916163696451b355f7d9.jpg",
+    "static/media/6.jpg": "/static/media/6.ce34aae3c39f82e0b598.jpg",
+    "static/media/7.jpg": "/static/media/7.8ca2f1b88c56a48f49f9.jpg",
     "static/media/solves_1.png": "/static/media/solves_1.94eb649423728806f0d2.png",
     "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
@@ -11,6 +18,13 @@
     "static/media/RobotoSlab-Medium.ttf": "/static/media/RobotoSlab-Medium.2126424ccbd498e308f3.ttf",
     "static/media/RobotoSlab-Regular.ttf": "/static/media/RobotoSlab-Regular.51fdb083efba0dd8a5ea.ttf",
     "static/media/solves_4.png": "/static/media/solves_4.ac15b14ab9833b113d80.png",
+    "static/media/2.png": "/static/media/2.178be6bd2b2078b22bf7.png",
+    "static/media/7.png": "/static/media/7.1827e0b479cd3c1c9702.png",
+    "static/media/3.png": "/static/media/3.083ee7a4acee653faaa4.png",
+    "static/media/4.png": "/static/media/4.1380d752900034695fd2.png",
+    "static/media/5.png": "/static/media/5.06be4844f2c099eea3d5.png",
+    "static/media/1.png": "/static/media/1.672678b5006fbe0c60db.png",
+    "static/media/6.png": "/static/media/6.6758981e8a592a627461.png",
     "static/media/solves_3.png": "/static/media/solves_3.f212dcdc835b2d6a681d.png",
     "static/media/picture_2.png": "/static/media/picture_2.70ff67c3df083ea3ced4.png",
     "static/media/solves_2.png": "/static/media/solves_2.8145057778a8d7fd8072.png",
@@ -18,12 +32,12 @@
     "static/media/picture_1.png": "/static/media/picture_1.b92c7f70ed822892f640.png",
     "static/media/Picture_2.png": "/static/media/Picture_2.91f98dbd38649dd9049a.png",
     "index.html": "/index.html",
-    "main.8f8f4616.css.map": "/static/css/main.8f8f4616.css.map",
-    "main.b8197008.js.map": "/static/js/main.b8197008.js.map",
+    "main.b2b52416.css.map": "/static/css/main.b2b52416.css.map",
+    "main.00c1242f.js.map": "/static/js/main.00c1242f.js.map",
     "787.ec704a7a.chunk.js.map": "/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f8f4616.css",
-    "static/js/main.b8197008.js"
+    "static/css/main.b2b52416.css",
+    "static/js/main.00c1242f.js"
   ]
 }
