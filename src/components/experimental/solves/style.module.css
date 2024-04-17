@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   height: 60vh;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
 }
 
 .container_main img {
@@ -31,22 +31,65 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10vh
+  margin-bottom: 10vh;
+  border: 1px solid #4A3311;
+  border-radius: 2vh;
+  background-color: #FFEEB1;
+}
+
+.search h2 {
+  height: 2vh;
+  margin-bottom: 2vh;
 }
 
 .search_block {
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-top: 3vw;
 }
 
 .selector {
-  width: 15vw;
+  width: 20vw;
+  height: 14vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.selector select {
+  height: 7vh;
+  width: 15vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border: 1px solid #4A3311;
+  border-radius: 1vw;
+}
+
+.selector option {
+  height: 7vh;
+  width: 15vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border: 1px solid #4A3311;
+  border-radius: 2vh;
+}
+
+.selector option:hover {
+  background-color: #FFEEB1;
+  outline: none;
+}
+
+.selector option:focus {
+  background-color: #FFEEB1;
+  outline: none;
+}
+
+.search_block button {
+  margin-left: 10vw;
 }
 
 .content {
@@ -68,7 +111,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
 }
 
 .download {
@@ -78,7 +121,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15vh;
+  margin-bottom: 10vh;
   border: 1px solid #4A3311;
   border-radius: 2vh;
 }
@@ -164,18 +207,19 @@
 
 .documents {
   width: 100%;
-  height: 580vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  margin-bottom: 10vh;
 }
 
 iframe {
-  width: 70vw;
-  height: 39.375vw;
+  width: 60vw;
+  height: 33.75vw;
 }
 
 .documents img {
-  width: 65vw;
+  width: 60vw;
+  margin-top: 5vh;
 }

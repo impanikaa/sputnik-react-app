@@ -41,6 +41,66 @@ import instruction_7 from "../../../data/experimental/solves/instructions/7.png"
 import blank_7 from "../../../data/experimental/solves/blanks/7.jpg";
 import scheme_7 from "../../../data/experimental/solves/schemes/7.jpg";
 
+import table_8 from "../../../data/experimental/solves/tables/8.png";
+import instruction_8 from "../../../data/experimental/solves/instructions/8.png";
+import blank_8 from "../../../data/experimental/solves/blanks/8.jpg";
+import scheme_8 from "../../../data/experimental/solves/schemes/8.jpg";
+
+import table_9 from "../../../data/experimental/solves/tables/9.png";
+import instruction_9 from "../../../data/experimental/solves/instructions/9.png";
+import blank_9 from "../../../data/experimental/solves/blanks/9.jpg";
+import scheme_9 from "../../../data/experimental/solves/schemes/9.jpg";
+
+import table_10 from "../../../data/experimental/solves/tables/10.png";
+import instruction_10 from "../../../data/experimental/solves/instructions/10.png";
+import blank_10 from "../../../data/experimental/solves/blanks/10.jpg";
+import scheme_10 from "../../../data/experimental/solves/schemes/10.jpg";
+
+import table_11 from "../../../data/experimental/solves/tables/11.png";
+import instruction_11 from "../../../data/experimental/solves/instructions/11.png";
+import blank_11 from "../../../data/experimental/solves/blanks/11.jpg";
+import scheme_11 from "../../../data/experimental/solves/schemes/11.jpg";
+
+import table_12 from "../../../data/experimental/solves/tables/12.png";
+import instruction_12 from "../../../data/experimental/solves/instructions/12.png";
+import blank_12 from "../../../data/experimental/solves/blanks/12.jpg";
+import scheme_12 from "../../../data/experimental/solves/schemes/12.jpg";
+
+import table_13 from "../../../data/experimental/solves/tables/13.png";
+import instruction_13 from "../../../data/experimental/solves/instructions/13.png";
+import blank_13 from "../../../data/experimental/solves/blanks/13.jpg";
+import scheme_13 from "../../../data/experimental/solves/schemes/13.jpg";
+
+import table_14 from "../../../data/experimental/solves/tables/14.png";
+import instruction_14 from "../../../data/experimental/solves/instructions/14.png";
+import blank_14 from "../../../data/experimental/solves/blanks/14.jpg";
+import scheme_14 from "../../../data/experimental/solves/schemes/14.jpg";
+
+import table_15 from "../../../data/experimental/solves/tables/15.png";
+import instruction_15 from "../../../data/experimental/solves/instructions/15.png";
+import blank_15 from "../../../data/experimental/solves/blanks/15.jpg";
+import scheme_15 from "../../../data/experimental/solves/schemes/15.jpg";
+
+import table_16 from "../../../data/experimental/solves/tables/16.png";
+import instruction_16 from "../../../data/experimental/solves/instructions/16.png";
+import blank_16 from "../../../data/experimental/solves/blanks/16.jpg";
+import scheme_16 from "../../../data/experimental/solves/schemes/16.jpg";
+
+import table_17 from "../../../data/experimental/solves/tables/17.png";
+import instruction_17 from "../../../data/experimental/solves/instructions/17.png";
+import blank_17 from "../../../data/experimental/solves/blanks/17.jpg";
+import scheme_17 from "../../../data/experimental/solves/schemes/17.jpg";
+
+import table_18 from "../../../data/experimental/solves/tables/18.png";
+import instruction_18 from "../../../data/experimental/solves/instructions/18.png";
+import blank_18 from "../../../data/experimental/solves/blanks/18.jpg";
+import scheme_18 from "../../../data/experimental/solves/schemes/18.jpg";
+
+import table_19 from "../../../data/experimental/solves/tables/19.png";
+import instruction_19 from "../../../data/experimental/solves/instructions/19.png";
+import blank_19 from "../../../data/experimental/solves/blanks/19.jpg";
+import scheme_19 from "../../../data/experimental/solves/schemes/19.jpg";
+
 const Solves = () => {
   const [selectedSet, setSelectedSet] = useState("set1");
   const [selectedTask, setSelectedTask] = useState("1");
@@ -126,6 +186,110 @@ const Solves = () => {
         <img src={blank_7}/>
         <img src={scheme_7}/>
       </div>;
+    } else if (selectedTask === "8") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_8}/>
+        <img src={instruction_8}/>
+        <img src={blank_8}/>
+        <img src={scheme_8}/>
+      </div>;
+    } else if (selectedTask === "9") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_9}/>
+        <img src={instruction_9}/>
+        <img src={blank_9}/>
+        <img src={scheme_9}/>
+      </div>;
+    } else if (selectedTask === "10") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_10}/>
+        <img src={instruction_10}/>
+        <img src={blank_10}/>
+        <img src={scheme_10}/>
+      </div>;
+    } else if (selectedTask === "11") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_11}/>
+        <img src={instruction_11}/>
+        <img src={blank_11}/>
+        <img src={scheme_11}/>
+      </div>;
+    } else if (selectedTask === "12") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_12}/>
+        <img src={instruction_12}/>
+        <img src={blank_12}/>
+        <img src={scheme_12}/>
+      </div>;
+    } else if (selectedTask === "13") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_13}/>
+        <img src={instruction_13}/>
+        <img src={blank_13}/>
+        <img src={scheme_13}/>
+      </div>;
+    } else if (selectedTask === "13") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_13}/>
+        <img src={instruction_13}/>
+        <img src={blank_13}/>
+        <img src={scheme_13}/>
+      </div>;
+    } else if (selectedTask === "14") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_14}/>
+        <img src={instruction_14}/>
+        <img src={blank_14}/>
+        <img src={scheme_14}/>
+      </div>;
+    } else if (selectedTask === "15") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_15}/>
+        <img src={instruction_15}/>
+        <img src={blank_15}/>
+        <img src={scheme_15}/>
+      </div>;
+    } else if (selectedTask === "16") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_16}/>
+        <img src={instruction_16}/>
+        <img src={blank_16}/>
+        <img src={scheme_16}/>
+      </div>;
+    } else if (selectedTask === "17") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_17}/>
+        <img src={instruction_17}/>
+        <img src={blank_17}/>
+        <img src={scheme_17}/>
+      </div>;
+    } else if (selectedTask === "18") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_18}/>
+        <img src={instruction_18}/>
+        <img src={blank_18}/>
+        <img src={scheme_18}/>
+      </div>;
+    } else if (selectedTask === "19") {
+      content = <div className={styles.documents}>
+        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <img src={table_19}/>
+        <img src={instruction_19}/>
+        <img src={blank_19}/>
+        <img src={scheme_19}/>
+      </div>;
     }
   }
 
@@ -150,7 +314,7 @@ const Solves = () => {
           </div>
           <div className={styles.selector}>
             <h3>Задание</h3>
-            <select value={selectedTask} onChange={handleTaskChange}>
+            <select value={selectedTask} onChange={handleTaskChange} className={styles.select_elem}>
               {tasksBySet[selectedSet].map((task) => (
                 <option key={task} value={task}>{task}</option>
               ))}
