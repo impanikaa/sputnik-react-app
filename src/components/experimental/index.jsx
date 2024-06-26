@@ -1,5 +1,5 @@
 import styles from './style.module.css'
-import Picture_1 from '../../data/experimental/Picture_1.png'
+import Picture_1 from '../../data/experimental/picture_1.png'
 import Picture_2 from '../../data/experimental/picture_2.png'
 import { Link } from 'react-router-dom';
 import Lightbulb from '../../data/experimental/lightbulb.png'
