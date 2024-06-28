@@ -26,17 +26,12 @@
   display: flex;
 }
 
-.main_text {
+.container_main h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: auto;
   text-align: left;
-  width: 40vw;
-}
-
-.main_text h2 {
-  margin-top: 2vh;
   line-height: 110%;
 }
 
@@ -60,7 +55,6 @@
   width: 75vw;
   align-items: center;
   padding: 5vw;
-  /* margin-left: 5vw; */
 }
 
 .task_about_text {
