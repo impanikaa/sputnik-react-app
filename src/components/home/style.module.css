@@ -54,7 +54,7 @@
     height: auto;
     /* border-bottom: 1px solid red;
     border-top: 1px solid red; */
-    margin-bottom: 12vh;
+    margin-bottom: 7vh;
     background-color: #FFEEB1;
     padding-top: 5vw;
     padding-bottom: 5vw;
@@ -85,7 +85,7 @@
 }
 
 .break {
-    margin-bottom: 12vh;
+    margin-bottom: 7vh;
     width: 50vw;
     display: flex;
     position: relative;
@@ -276,14 +276,14 @@
     }
 
     .container_main {
-        flex-direction: column-reverse;
-        align-items: start;
+        flex-direction: column;
+        align-items: center;
         padding-left: 5vw;
     }
 
     .container_main img {
         margin-left: 0;
-        width: 30vw;
+        width: 45vw;
     }
 
     .main_text {

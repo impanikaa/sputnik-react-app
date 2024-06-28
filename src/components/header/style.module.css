@@ -137,4 +137,17 @@
     align-items: center;
     justify-content: center;
   }
+
+  .container {
+    height: 10vh;
+  }
+  
+  .container_elem {
+    height: 10vh;
+  }
+
+  .logo {
+    width: 5vh;
+    height: 5vh;
+  }
 }

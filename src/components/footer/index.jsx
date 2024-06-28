@@ -22,7 +22,7 @@ const Footer = () => {
         <p className={styles.text}>Ответственно.</p>
         <p className={styles.text}>Креативно.</p>
         </div>
-        <Link to='/'><img src={logoImage} alt="Логотип" className={styles.logo} /></Link>
+        <Link to='/' className={styles.logo}><img src={logoImage} alt="Логотип" className={styles.logo} /></Link>
       </div>
       </div>
     </div>
