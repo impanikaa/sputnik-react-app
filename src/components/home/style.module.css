@@ -3,39 +3,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 335vh;
+    height: auto;
     margin-left: 10%;
     margin-right: 10%;
+    position: relative;
+    margin-top: 5vh;
 }
 
 .container_main {
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    height: 80vh;
+    height: auto;
     /* border-bottom: 1px solid red; */
     margin-bottom: 12vh;
 }
 
 .container_main img {
-    width: 70vh;
-    height: 70vh;
+    width: 30vw;
+    /* height: 55vw; */
     display: flex;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
 }
 
 .main_text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 50vh;
+    height: 40vh;
     text-align: left;
     width: 40vw;
 }
 
 .main_text h2 {
-    margin-top: 4vh;
+    margin-top: 2vh;
+}
+.main_text p {
+    margin-bottom: 2vh;
 }
 
 .container_oge {
@@ -44,21 +51,28 @@
     flex-direction: row;
     position: relative;
     align-items: center;
-    height: 45vh;
+    height: auto;
     /* border-bottom: 1px solid red;
     border-top: 1px solid red; */
     margin-bottom: 12vh;
     background-color: #FFEEB1;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 .oge_text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 32vh;
+    justify-content: space-evenly;
+    /* height: 28vw; */
     text-align: left;
-    width: 50vw;
+    max-width: 50vw;
     margin-left: 5vw;
+    flex: 1;
+}
+
+.oge_text_par {
+    margin-top: 2vw;
 }
 
 .oge_text p {
@@ -87,24 +101,40 @@
     position: relative;
     align-items: center;
     justify-content: space-between;
-    height: 50vh;
+    height: auto;
     /* border-bottom: 1px solid red;
     border-top: 1px solid red; */
     margin-bottom: 12vh;
     background-color: #fff;
 }
 
+.container_about h2 {
+    text-align: center;
+}
+
 .about_block_cards {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    width: 80vw;
+    justify-content: space-evenly;
+    width: 75vw;
     text-align: center;
+    margin-top: 3vw;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    width: 32vw;
+    justify-content: space-between;
 }
 
 .about_card {
-    width: 16vw;
+    width: 15vw;
+}
+
+.about_card img {
+    width: 8vw;
 }
 
 .container_lab {
@@ -114,8 +144,8 @@
     position: relative;
     align-items: center;
     justify-content: space-between;
-    height: 45vh;
-    margin-bottom: 12vh;
+    height: auto;
+    margin-bottom: 10vh;
     background-color: #fff;
 }
 
@@ -127,20 +157,25 @@
 
 .container_lab ul {
     width: 25vw;
-    height: 35vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    line-height: 170%;
+}
+
+.lab_text {
+    width: 25vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     position: relative;
     justify-content: space-between;
 }
 
-.lab_text {
-    width: 25vw;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: space-between;
+.lab_text p {
+    margin-bottom: 2vw;
 }
 
 .container_fipi {
@@ -150,8 +185,10 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    height: 35vh;
+    height: auto;
     background-color: #FFEEB1;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .fipi_text {
@@ -159,8 +196,8 @@
     flex-direction: column;
     text-align: center;
     margin-top: 3vh;
-    height: 35vh;
-    width: 65vw;
+    max-width: 70vw;
+    flex: 1;
 }
 
 .fipi_text h3 {
@@ -170,4 +207,90 @@
 .fipi_text a {
     text-decoration: none;
     color: #0D0D0D;
+}
+
+@media (max-width: 600px) {
+    .container_oge {
+        flex-direction: column;
+        height: auto; 
+        padding: 5vw;
+    }
+
+    .container_oge img {
+        width: 15vw;
+        margin-left: 0;
+        margin-bottom: 2vw;
+    }
+
+    .oge_text {
+        max-width: 75vw;
+        margin-left: 0;
+    }
+
+    .about_block_cards {
+        flex-direction: column;
+        margin-top: 5vw;
+    }
+    
+    .pair {
+        display: flex;
+        flex-direction: row;
+        width: 75vw;
+        justify-content: space-between;
+    }
+
+    .about_card {
+        width: 35vw;
+    }
+
+    .about_card img {
+        width: 6vw;
+    }
+
+    .container_lab {
+        flex-direction: column;
+    }
+
+    .container_lab ul {
+        width: 90%
+    }
+
+    .container_lab img {
+        width: 35%;
+        margin-bottom: 2vw;
+        margin-top: 3vh;
+    }
+
+    .lab_text {
+        width: 90%;
+    }
+
+    .lab_text p {
+        margin-bottom: 2.5vw;
+    }
+
+    .container_fipi {
+        flex-direction: column;
+        height: auto; 
+        padding: 3vw;
+    }
+
+    .container_main {
+        flex-direction: column-reverse;
+        align-items: start;
+        padding-left: 5vw;
+    }
+
+    .container_main img {
+        margin-left: 0;
+        width: 30vw;
+    }
+
+    .main_text {
+        width: 75vw;
+    }
+
+    .container_lab {
+        margin-bottom: 7vh;
+    }
 }

@@ -6,6 +6,7 @@ import logoImage from '../../data/header_footer/Logo.png'
 const Footer = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.container_elem}>
       <nav className={styles.navbar}>
         <Link to='/' className={styles.links}>На главную</Link>
         <Link to='/about' className={styles.links}>О сайте</Link>
@@ -16,8 +17,13 @@ const Footer = () => {
       <div className={styles.line}></div>
       <img src={Picture_1} className={styles.picture} alt='картинка'></img>
       <div className={styles.text_logo}>
-        <p className={styles.text}>Смело. Ответственно. Креативно.</p>
+        <div>
+        <p className={styles.text}>Смело.</p>
+        <p className={styles.text}>Ответственно.</p>
+        <p className={styles.text}>Креативно.</p>
+        </div>
         <Link to='/'><img src={logoImage} alt="Логотип" className={styles.logo} /></Link>
+      </div>
       </div>
     </div>
   );
