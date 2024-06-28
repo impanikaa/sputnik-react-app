@@ -18,15 +18,12 @@
     justify-content: space-between;
     align-items: center;
     height: auto;
-    /* border-bottom: 1px solid red; */
     margin-bottom: 7vh;
 }
 
 .container_main img {
     width: 30vw;
-    /* height: 55vw; */
     display: flex;
-    /* margin-left: 5vw; */
 }
 
 .main_text {
@@ -52,8 +49,6 @@
     position: relative;
     align-items: center;
     height: auto;
-    /* border-bottom: 1px solid red;
-    border-top: 1px solid red; */
     margin-bottom: 7vh;
     background-color: #FFEEB1;
     padding-top: 5vw;
