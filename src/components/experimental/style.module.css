@@ -155,8 +155,11 @@
 }
 
 .equipment_card {
-  width: auto;
-  margin: 3vw;
+  width: 30%;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .equipment_card img {
@@ -167,7 +170,6 @@
 .container_equipment p {
   text-align: center;
 }
-
 
 .container_solves {
   width: 100%;
@@ -252,11 +254,11 @@
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 4vh;
+    font-size: 3vh;
   }
 
   h2 {
-    font-size: 3vh;
+    font-size: 2.5vh;
   }
   
   h3 {
@@ -363,4 +365,9 @@
   border-radius: 5vh;
   width: fit-content;
 }
+
+.equipment_card h3 {
+  font-size: 1.8vh;
+}
+
 }
