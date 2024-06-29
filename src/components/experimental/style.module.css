@@ -263,7 +263,11 @@
     flex-direction: column;
     align-items: center;
     padding-left: 2vw;
-}
+  }
+
+  .container_main h2 {
+    margin-top: 2vh;
+  }
 
 .container_main img {
     margin-left: 0;
@@ -350,10 +354,10 @@
 }
 
 .solves_card_text_h3 {
-  padding-top: 1.5vw;
-  padding-bottom: 1.5vw;
-  padding-left: 2.5vw;
-  padding-right: 2.5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
   background-color: #FFEEB1;
   border: 1px solid #4A3311;
   border-radius: 5vh;
@@ -361,7 +365,15 @@
 }
 
 .equipment_card h3 {
-  font-size: 1.8vh;
+  font-size: 1.5vh;
+}
+
+.solves_card_text_h3 h3 {
+  font-size: 2vh;
+}
+
+.solves_card {
+  margin-bottom: 2vh;
 }
 
 }
