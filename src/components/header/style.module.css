@@ -53,8 +53,8 @@
 
 .burger {
   position: relative;
-  width: 5vh;
-  height: 5vh;
+  width: 3vh;
+  height: 3vh;
   background: transparent;
   cursor: pointer;
   display: none; /* Скрываем чекбокс для широких экранов */
