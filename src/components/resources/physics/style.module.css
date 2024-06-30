@@ -134,6 +134,7 @@
   .res_card_1 img {
     margin-bottom: 3vh;
     height: 20vw;
+    width: auto;
   }
 
   .res_card_2 {
@@ -145,6 +146,7 @@
   .res_card_2 img {
     margin-bottom: 3vh;
     height: 20vw;
+    width: auto;
   }
 
   .res_card_text_1 {
