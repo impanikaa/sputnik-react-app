@@ -33,6 +33,12 @@
   height: auto;
   text-align: left;
   line-height: 110%;
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+}
+
+.container_main h2 {
+  margin-left: 5vw;
 }
 
 .container_task_about {
@@ -266,7 +272,12 @@
   }
 
   .container_main h2 {
-    margin-top: 2vh;
+    margin-left: 0;
+  }
+
+  .container_main h1 {
+    margin-left: 0;
+    margin-bottom: 1.5vh;
   }
 
 .container_main img {
