@@ -1,7 +1,7 @@
 import styles from './style.module.css'
 import { Link } from 'react-router-dom';
 import Search from '../../data/resources/search.png'
-import Document from '../../data/resources/document.png'
+import Document from '../../data/resources/hand-held.png'
 import Telescope from '../../data/resources/telescope.png'
 import Learning from '../../data/resources/learning.png'
 import Planet from '../../data/resources/planet.png'
