@@ -1,21 +1,144 @@
 .container {
   width: 80%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 50vh;
+  height: auto;
   margin-left: 10%;
   margin-right: 10%;
   position: relative;
   margin-top: 5vh;
-  justify-content: center;
 }
 
-.text {
+.container_main {
+  position: relative;
+  width: 100%;
   display: flex;
-  color: gray;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin-bottom: 10vh;
+}
+
+.container_main img {
+  width: 15vw;
+  display: flex;
+}
+
+.container_main h1 {
+  display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  text-align: left;
+  line-height: 110%;
+  margin-bottom: 3vh;
+  margin-right: 5vw;
+}
+
+.links_block {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links_block_1 {
+  width: 49%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+}
+
+.link {
+  height: 8vh;
+  width: 100%;
+  background-color: #FFEEB1;
+  border-radius: 1vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 1vh;
+}
+
+.link p {
+  text-align: left;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  font-size: 2vh;
+}
+
+.link button {
+  background-color: #FFFFFF;
+  height: 3.5vh;
+  width: 4.5vh;
+  border-radius: 2vw;
+  border: 1px solid #4A3311;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: 3vh;
-  font-weight: 300;
-  font-family: 'Roboto Light';
+  margin-right: 2vw;
+}
+
+.links_block img {
+  width: 1.5vh;
+  height: 1.5vh;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3vh;
+  }
+
+  h2 {
+    font-size: 2.5vh;
+  }
+  
+  h3 {
+    font-size: 2vh;
+  }
+
+.container_main {
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_main img {
+    margin-left: 0;
+    margin-bottom: 2vh;
+    width: 35vw;
+}
+
+.container_main h1 {
+    margin-bottom: 2vh;
+}
+
+.link p {
+  font-size: 1.8vh;
+  line-height: 120%;
+}
+
+.links_block {
+  flex-direction: column;
+}
+
+.links_block_1 {
+  width: 100%;
+}
+
 }
