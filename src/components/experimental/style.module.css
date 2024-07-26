@@ -83,7 +83,8 @@
 }
 
 .task_about_all h2 {
-  margin-left: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
   line-height: 140%;
 }
 
@@ -121,6 +122,11 @@
 
 .ask_text p {
   margin: 0;
+  margin-top: 2vh;
+}
+
+.container_ask ul {
+  margin-bottom: 5vh;
 }
 
 .container_ask img {
@@ -169,6 +175,10 @@
 
 .container_equipment p {
   text-align: center;
+}
+
+.container_equipment h2 {
+  margin-bottom: 2vh;
 }
 
 .container_solves {
@@ -330,7 +340,7 @@
 }
 
 .container_ask ul {
-  padding-left: 5vw;
+  padding-left: 3vw;
   margin-bottom: 3vh;
 }
 
@@ -346,6 +356,7 @@
 
 .container_equipment h2 {
   text-align: center;
+  margin-bottom: 2vh;
 }
 
 .solves_block {
