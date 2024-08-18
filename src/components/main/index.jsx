@@ -8,6 +8,7 @@ import Resources from '../resources';
 import About from '../about';
 import Lost from '../lost'
 import Solves from '../experimental/solves';
+import Topics from '../experimental/topics';
 import OgeRes from '../resources/oge';
 import BooksRes from '../resources/books';
 import PhysicsRes from '../resources/physics';
@@ -23,7 +24,7 @@ const Main = () => {
                 <Route exact path='/experimental-task' component={Experimental}/>
                 <Route exact path='/resources' component={Resources}/>
                 <Route exact path='/about' component={About}/>
-                <Route exact path='/experimental-task/topics' component={Lost}/>
+                <Route exact path='/experimental-task/topics' component={Topics}/>
                 <Route exact path='/experimental-task/equipment' component={Lost}/>
                 <Route exact path='/experimental-task/solves' component={Solves}/>
                 <Route exact path='/resources/oge' component={OgeRes}/>
