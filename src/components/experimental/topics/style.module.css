@@ -247,12 +247,28 @@
     padding-left: 5vw;
   }
 
+  .container_theme ul li {
+    padding-left: 5vw;
+  }
+
   .arrow {
     margin-right: 5vw;
   }
 
   .answer a {
     font-size: 2vh;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .container_check ul li {
+    padding-left: 7vw;
+  }
+
+  .container_theme ul li {
+    padding-left: 7vw;
   }
 
 }
