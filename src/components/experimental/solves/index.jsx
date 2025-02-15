@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import YouTube from 'react-youtube';
+import RutubePlayer from './rutube.jsx';
 import styles from './style.module.css';
 import documentsData from './documents.json';
 import Picture_1 from '../../../data/experimental/solves/picture_1.png';
@@ -132,7 +132,7 @@ const Solves = () => {
   if (showContent) { // Показ контента только если кнопка была нажата
     if (selectedTask === "1") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/play/embed/715145ec16aaeaf7ba9bdf002aea0f4f/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_1}/>
         <img src={instruction_1}/>
         <img src={blank_1}/>
@@ -140,7 +140,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "2") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_2}/>
         <img src={instruction_2}/>
         <img src={blank_2}/>
@@ -148,7 +148,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "3") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_3}/>
         <img src={instruction_3}/>
         <img src={blank_3}/>
@@ -156,7 +156,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "4") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_4}/>
         <img src={instruction_4}/>
         <img src={blank_4}/>
@@ -164,7 +164,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "5") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_5}/>
         <img src={instruction_5}/>
         <img src={blank_5}/>
@@ -172,7 +172,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "6") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_6}/>
         <img src={instruction_6}/>
         <img src={blank_6}/>
@@ -180,7 +180,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "7") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_7}/>
         <img src={instruction_7}/>
         <img src={blank_7}/>
@@ -188,7 +188,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "8") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_8}/>
         <img src={instruction_8}/>
         <img src={blank_8}/>
@@ -196,7 +196,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "9") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_9}/>
         <img src={instruction_9}/>
         <img src={blank_9}/>
@@ -204,7 +204,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "10") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_10}/>
         <img src={instruction_10}/>
         <img src={blank_10}/>
@@ -212,7 +212,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "11") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_11}/>
         <img src={instruction_11}/>
         <img src={blank_11}/>
@@ -220,7 +220,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "12") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_12}/>
         <img src={instruction_12}/>
         <img src={blank_12}/>
@@ -228,7 +228,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "13") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_13}/>
         <img src={instruction_13}/>
         <img src={blank_13}/>
@@ -236,7 +236,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "13") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_13}/>
         <img src={instruction_13}/>
         <img src={blank_13}/>
@@ -244,7 +244,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "14") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_14}/>
         <img src={instruction_14}/>
         <img src={blank_14}/>
@@ -252,7 +252,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "15") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_15}/>
         <img src={instruction_15}/>
         <img src={blank_15}/>
@@ -260,7 +260,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "16") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_16}/>
         <img src={instruction_16}/>
         <img src={blank_16}/>
@@ -268,7 +268,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "17") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_17}/>
         <img src={instruction_17}/>
         <img src={blank_17}/>
@@ -276,7 +276,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "18") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_18}/>
         <img src={instruction_18}/>
         <img src={blank_18}/>
@@ -284,7 +284,7 @@ const Solves = () => {
       </div>;
     } else if (selectedTask === "19") {
       content = <div className={styles.documents}>
-        <YouTube videoId={documentsData[selectedTask].video_id} className={styles.video}/>
+        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
         <img src={table_19}/>
         <img src={instruction_19}/>
         <img src={blank_19}/>

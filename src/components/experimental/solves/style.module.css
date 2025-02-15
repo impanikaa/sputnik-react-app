@@ -235,6 +235,11 @@ iframe {
   height: 33.75vw;
 }
 
+.video {
+  width: 60vw;
+  height: 33.75vw;
+}
+
 .documents img {
   width: 60vw;
   margin-top: 5vh;
