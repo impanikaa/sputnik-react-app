@@ -186,7 +186,7 @@ const Solves = () => {
     } else if (selectedTask === "7") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/34eb61b20b859a6a38cffff3c83221e5/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_7}/>
         <img src={instruction_7}/>
         <img src={blank_7}/>
@@ -195,7 +195,7 @@ const Solves = () => {
     } else if (selectedTask === "8") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/a77335bbca96143cea1a7431e8b2e9e2/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_8}/>
         <img src={instruction_8}/>
         <img src={blank_8}/>
@@ -204,7 +204,7 @@ const Solves = () => {
     } else if (selectedTask === "9") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/c3baef3d4aa05efdbb85090721706e17/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_9}/>
         <img src={instruction_9}/>
         <img src={blank_9}/>
@@ -213,7 +213,7 @@ const Solves = () => {
     } else if (selectedTask === "10") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/53c2f5c49a449ffda71f70292d380e17/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_10}/>
         <img src={instruction_10}/>
         <img src={blank_10}/>
@@ -222,7 +222,7 @@ const Solves = () => {
     } else if (selectedTask === "11") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/882ea17a205b02a8d42aa70dcc410545/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_11}/>
         <img src={instruction_11}/>
         <img src={blank_11}/>
@@ -231,7 +231,7 @@ const Solves = () => {
     } else if (selectedTask === "12") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/da00bb09a60b2e1d5c2f682bd8b03dac/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_12}/>
         <img src={instruction_12}/>
         <img src={blank_12}/>
@@ -240,16 +240,7 @@ const Solves = () => {
     } else if (selectedTask === "13") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-        <img src={table_13}/>
-        <img src={instruction_13}/>
-        <img src={blank_13}/>
-        <img src={scheme_13}/>
-      </div>;
-    } else if (selectedTask === "13") {
-      content = <div className={styles.documents}>
-        <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/4664af43eb40b52e24a63db4f3acb2f5/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_13}/>
         <img src={instruction_13}/>
         <img src={blank_13}/>
@@ -258,7 +249,7 @@ const Solves = () => {
     } else if (selectedTask === "14") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/10b7fa7582db78a928b17d855d3eb3ad/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_14}/>
         <img src={instruction_14}/>
         <img src={blank_14}/>
@@ -267,7 +258,7 @@ const Solves = () => {
     } else if (selectedTask === "15") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/1dd2109601d693353edab9e60100c836/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_15}/>
         <img src={instruction_15}/>
         <img src={blank_15}/>
@@ -276,7 +267,7 @@ const Solves = () => {
     } else if (selectedTask === "16") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/3510cd68330ae1eea031b59ef48d2a0f/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_16}/>
         <img src={instruction_16}/>
         <img src={blank_16}/>
@@ -285,7 +276,7 @@ const Solves = () => {
     } else if (selectedTask === "17") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/72df5701f671ce0fb05ae563c3abf946/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_17}/>
         <img src={instruction_17}/>
         <img src={blank_17}/>
@@ -294,7 +285,7 @@ const Solves = () => {
     } else if (selectedTask === "18") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/811f988f05f6db545fff097d9048d94f/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_18}/>
         <img src={instruction_18}/>
         <img src={blank_18}/>
@@ -303,7 +294,7 @@ const Solves = () => {
     } else if (selectedTask === "19") {
       content = <div className={styles.documents}>
         <RutubePlayer videoUrl={documentsData[selectedTask].video_url} />
-        <iframe width="60vw" height="33.75vw" src="" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <iframe width="60vw" height="33.75vw" src="https://rutube.ru/video/7f1d31734a2552077f6cc9e2e9a40a31/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <img src={table_19}/>
         <img src={instruction_19}/>
         <img src={blank_19}/>
